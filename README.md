@@ -22,5 +22,5 @@
 
 ## 坑：
   1. getActionBar()报空，改成getSupportActionBar();
-  2. WindowManager.LayoutParams，设置了MATCH_PARENT或者WRAP_CONTENT,f浮层会覆盖actionabr。这里希望浮层只覆盖内容区域。设置高度是ID_ANDROID_CONTENT区域的高度就ok。
+  2. WindowManager.LayoutParams，设置了MATCH_PARENT或者WRAP_CONTENT,浮层会覆盖actionabr。这里希望浮层只覆盖内容区域。设置高度是ID_ANDROID_CONTENT区域的高度就ok。
     
